@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "Boldit",
+  "version": "1.0",
+
+  "description": "Changes the font style of a webpage on user's choice",
+  "icons": {
+    "48": "icons/border-48.png",
+	"96": "icons/border-96.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+  "browser_style": true,
+  "default_icon": {
+    "19": "icons/border-19.png",
+    "38": "icons/border-38.png"
+}
+},
+  
+  "background": {
+      "scripts": ["boldit.js"]
+    }
+}
